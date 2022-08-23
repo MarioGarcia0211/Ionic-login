@@ -1,0 +1,49 @@
+<ion-content>
+  <div class="body">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          REGISTRARSE
+        </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <form>
+          <ion-item>
+            <ion-label position="">Nombre:</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="">Apellido:</ion-label>
+            <ion-input type="text" placeholder=""></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="">Email:</ion-label>
+            <ion-input type="email" placeholder=""></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="">Contraseña:</ion-label>
+            <ion-input type="password" placeholder=""></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="">Género:</ion-label>
+            <ion-select placeholder="">
+              <ion-select-option value="masculino">Masculino</ion-select-option>
+              <ion-select-option value="femenino">Femenino</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+
+
+          <ion-button expand="block">REGISTRAR</ion-button>
+        </form>
+      </ion-card-content>
+      <p class="footer-text">¿Ya tienes cuenta? <a routerLink="/login">Inicia sesión</a></p>
+    </ion-card>
+  </div>
+</ion-content>
+

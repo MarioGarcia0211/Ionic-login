@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="body">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          INICIAR SESIÓN
+        </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <form>
+          <ion-item>
+            <ion-icon slot="start" name="mail-outline"></ion-icon>
+            <ion-input type="email" placeholder="Email"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon slot="start" name="lock-closed-outline"></ion-icon>
+            <ion-input type="password" placeholder="Contraseña"></ion-input>
+          </ion-item>
+
+          <ion-button expand="block">Iniciar Sesión</ion-button>
+        </form>
+      </ion-card-content>
+      <p class="footer-text">¿Eres nuevo usuario? <a routerLink="/sign-up">Regístrate</a></p>
+    </ion-card>
+  </div>
+</ion-content>

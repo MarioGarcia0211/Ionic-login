@@ -1,0 +1,110 @@
+ion-content{
+  // --background: rebeccapurple;
+
+  .body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    // background: red;
+
+    ion-card{
+      width: 400px;
+
+      ion-card-header{
+        //background: var(--ion-color-primary);
+
+        ion-card-title{
+          color: var(--ion-color-primary);
+          font-size: 30px;
+          font-weight: bolder;
+          text-align: center;
+
+        }
+      }
+
+      ion-card-content{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+        ion-item{
+          width: 100%;
+          // min-width: 50px;
+          --background-color:var(--background-color);
+          --padding-start: 10px;
+          --highlight-height: 0;
+          --border-width: 0;
+          --padding-top: 0;
+          --min-height: 40px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+          margin-top: 20px;
+          border: solid 1px var(--ion-color-primary);
+
+          // ion-label{
+          //   color: var(--ion-color-primary);
+          // }
+
+          ion-input{
+          //   margin-left: 10px;
+          //   font-size: 20px;
+          width: 100%;
+          //color: var(--ion-color-primary);
+          }
+        }
+
+        ion-button{
+          width: 100%;
+          margin-top: 30px;
+          //color:red;
+        }
+      }
+
+      p{
+        text-align: center;
+        margin-top: 10%;
+
+        a{
+          text-decoration: none;
+          font-weight: bold;
+          color: var(--ion-color-primary);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  ion-content{
+    //--background: gold;
+
+    .body{
+      ion-card{
+        //--background: red;
+        //height: 80%;
+        width: 100%;
+        box-shadow: none;
+
+        ion-card-header{
+          //margin-top: -16px;
+          padding: 30px;
+          //background: var(--ion-color-primary-contrast);
+
+        }
+
+
+        p{
+          text-align: center;
+          //margin-top: 30%;
+
+          a{
+            text-decoration: none;
+            font-weight: bold;
+            color: var(--ion-color-primary);
+          }
+        }
+      }
+    }
+  }
+}
